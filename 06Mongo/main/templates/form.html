@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Search</title>
+</head>
+<body>
+  <form action="/" method="POST">
+    TITLE: <input type="text" name="title">
+    <input type="submit" name = "submit" value="submit">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    GENRE: <input type="text" name="genre_only">
+    <input type="submit" name = "submit" value="submit">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    DIRECTOR: <input type="text" name="director">
+    <input type="submit" name = "submit" value="submit">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    YEAR PRODUCED: <input type="text" name="year_only">
+    <input type="submit" name = "submit" value="submit">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    MOVIES AFTER YEAR: <input type="text" name="after_year">
+    <input type="submit" name = "submit" value="submit">
+  </form>
+  <br>
+  <form action="/" method="POST">
+    YEAR PRODUCED AND GENRE: <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;YEAR PRODUCED: <input type="text" name="year"> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;GENRE: <input type="text" name="genre"> <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" name = "submit" value="submit">
+  </form>
+  <br>
+  RESULTS:
+  {{results}}
+</body>
+</html>

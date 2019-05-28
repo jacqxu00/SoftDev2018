@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      .chart div {
+      font: 10px sans-serif;
+      background-color: steelblue;
+      text-align: right;
+      padding: 3px;
+      margin: 1px;
+      color: white;
+      }
+    </style>
+
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <h1 id="title">United States 2000 Budget in Billions</h1><br><br>
+    <table>
+      <tr>
+	<td>
+	  Agriculture<br>
+	  Commerce<br>
+	  Defense<br>
+	  Education<br>
+	  Energy
+	</td>
+	<td>
+	  <div class="chart">
+	  </div>
+	</td>
+      </tr>
+    </table>
+
+    <br>
+    <button id="swap"> Switch to 2020</button>
+
+  </body>
+
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="chart.js"></script>
+</html>
